@@ -33,23 +33,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.812"
         tools:ignore="MissingConstraints">
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="200dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:text="@string/sign_in_button"
-            tools:layout_editor_absoluteX="104dp"
-            tools:layout_editor_absoluteY="685dp" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="200dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:text="@string/sign_up_button"
-            tools:layout_editor_absoluteX="104dp"
-            tools:layout_editor_absoluteY="605dp" />
 
     </LinearLayout>
 
@@ -65,18 +49,7 @@
         app:srcCompat="@drawable/hearts_icons_vectors_illustrations"
         tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/log_button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.616"
-        tools:ignore="MissingConstraints" />
+
 
 
 

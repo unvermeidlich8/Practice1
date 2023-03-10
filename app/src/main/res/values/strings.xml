@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">practice1</string>
+    <string name="app_name">Health app</string>
+    <string name="title">Health app</string>
+    <string name="sign_in_button">sign in</string>
+    <string name="sign_up_button">sign up</string>
+    <string name="log_button">Log</string>
 </resources>
