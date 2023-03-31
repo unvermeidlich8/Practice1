@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String KEY = "KEY";
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,9 +25,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                intent.putExtra(KEY,"health");
-                startActivity(intent);
+
             }
         });
     }
